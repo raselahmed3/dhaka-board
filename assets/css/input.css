@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "Kalpurush";
+  src: url("./../font/Kalpurush.woff") format("woff"),
+    url("./../font/Kalpurush.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+.html,
+body {
+  font-family: "Kalpurush";
+}
+.nws-top-border-color {
+  border-color: #8ac007;
+}
+.container {
+  width: 1100px;
+  @apply mx-auto;
+}
+.header-bg {
+  background-color: #608621;
+}
+
+.heading-color {
+  color: #f39c12;
+}
+.news-bg {
+  background-color: #609513;
+}
+.menu-item {
+  @apply py-4 px-5 transition;
+}
+.menu-item:hover {
+  @apply text-white;
+  background-color: #8ac007;
+}
+
+.body-bg {
+  background-color: #e3e3e3;
+}
+
+.border-box {
+  border: 3px solid #d2d6de;
+}
+.border-top-color {
+  border-top-color: #3c8dbc;
+}
+.box-shadow {
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+}
+.box-radius {
+  border-radius: 5px;
+}
+.secondary-color {
+  color: #337ab7;
+}
+.btn {
+  background-color: #e08e0b;
+  font-size: 12px;
+}
+.btn:hover {
+  background-color: #f0ad4e;
+}
+.main-shadow {
+  box-shadow: 0 0 8px rgb(0 0 0 / 50%);
+}
